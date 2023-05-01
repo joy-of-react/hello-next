@@ -17,10 +17,14 @@ export default function Home() {
   fs.writeFileSync(DATABASE_PATH, JSON.stringify({ hits: newHits }));
 
   return (
-    <main>
-      <h1>Hello Next!</h1>
-      <Counter />
-      <p>You are visitor number {hits}</p>
-    </main>
+    <html lang="en">
+      <body>
+        <main>
+          <h1>Hello Next!</h1>
+          <Counter />
+          <p>You are visitor number {hits}</p>
+        </main>
+      </body>
+    </html>
   );
 }
