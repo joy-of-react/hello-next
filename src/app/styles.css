@@ -48,11 +48,30 @@ h6 {
 
 /* Minimal styles */
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 16px;
+  min-height: 100%;
   font-family: sans-serif;
+  background: hsl(0deg 0% 95%);
+  color: hsl(0deg 0% 10%);
 }
 main {
+  width: 100%;
   max-width: 800px;
-  padding: 16px;
-  margin: 32px auto;
-  border: 1px solid hsl(0deg 0% 50% / 0.2);
+  padding: 16px 24px;
+  margin: 0px auto;
+  border: 1px solid hsl(0deg 0% 50% / 0.3);
+  border-radius: 2px;
+  background: white;
+}
+footer {
+  width: 100%;
+  margin-top: auto;
+  font-size: 0.875rem;
+  color: hsl(0deg 0% 30%);
+  text-align: center;
+  padding: 32px 0px;
+  border-top: 1px dashed hsl(0deg 0% 80%);
 }
