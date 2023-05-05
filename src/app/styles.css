@@ -68,10 +68,8 @@ main {
 }
 footer {
   width: 100%;
-  margin-top: auto;
   font-size: 0.875rem;
   color: hsl(0deg 0% 30%);
   text-align: center;
   padding: 32px 0px;
-  border-top: 1px dashed hsl(0deg 0% 80%);
 }
