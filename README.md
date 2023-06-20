@@ -1,5 +1,21 @@
-## Next 13 template
+# Next 13 template
 
 This is a _super minimal_ starter for Next 13's App Router.
 
 Not intended for use in production. Purely used for educational reasons.
+
+## Running a development server
+
+First, install the dependencies:
+
+```bash
+$ npm install
+```
+
+Then, start a local development server:
+
+```bash
+$ npm run dev
+```
+
+**Note:** Unlike create-react-app, we need to run the `dev` command, not `start`. The `start` command is used to run a _production_ server; we'll learn more about that later in the course.
