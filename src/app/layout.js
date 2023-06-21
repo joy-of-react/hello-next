@@ -5,10 +5,7 @@ import './styles.css';
 function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-        <footer>Copyright Whatever Inc.</footer>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
