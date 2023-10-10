@@ -69,7 +69,7 @@ main {
 footer {
   width: 100%;
   font-size: 0.875rem;
-  color: hsl(0deg 0% 30%);
+  color: hsl(301, 100%, 50%);
   text-align: center;
   padding: 32px 0px;
 }
