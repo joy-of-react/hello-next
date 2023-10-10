@@ -7,7 +7,9 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-
+        <footer>
+          {new Date().toLocaleString()}
+        </footer>
       </body>
     </html>
   );
