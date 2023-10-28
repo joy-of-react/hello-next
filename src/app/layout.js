@@ -9,7 +9,7 @@ function RootLayout({ children }) {
       <body>
         {children}
         <footer>
-          Page rendered on {timestamp}
+          Page rendered on {timestamp} and owned by Bachand Inc.
         </footer>
       </body>
     </html>
