@@ -8,7 +8,7 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-        <footer>
+        <footer color='hotpink'>
           Page rendered on {timestamp} and owned by Bachand Inc.
         </footer>
       </body>
