@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <main>
-      <h1>Hello Next!</h1>
+      <h1>Hello Next! Topgrace</h1>
     </main>
   );
 }
