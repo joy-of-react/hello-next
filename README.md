@@ -22,5 +22,5 @@ $ npm run dev
 
 ## Troubleshooting
 
-- Please make sure you're using Node.js version 16.14 or higher. This is the minimum Node version required by Next.js.
-  - You can find your current Node version by running `node -v` in a terminal. If the value is less than 16.14, you'll want to upgrade Node to the [current LTS (Long Term Support) version](https://nodejs.org/en).
+- Please make sure you're using Node.js version 18.17 or higher. This is the minimum Node version required by Next.js.
+  - You can find your current Node version by running `node -v` in a terminal. If the value is less than 18.17, you'll want to upgrade Node to the [current LTS (Long Term Support) version](https://nodejs.org/en).
