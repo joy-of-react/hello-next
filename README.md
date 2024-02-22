@@ -1,6 +1,6 @@
-# Next 13 template
+# Next.js template
 
-This is a _super minimal_ starter for Next 13's App Router.
+This is a _super minimal_ starter for using Next.js with the modern App Router.
 
 Not intended for use in production. Purely used for educational reasons.
 
@@ -17,8 +17,6 @@ Then, start a local development server:
 ```bash
 $ npm run dev
 ```
-
-**Note:** Unlike create-react-app, we need to run the `dev` command, not `start`. The `start` command is used to run a _production_ server; we'll learn more about that later in the course.
 
 ## Troubleshooting
 
