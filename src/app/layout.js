@@ -7,7 +7,9 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-
+        <footer>
+          Copyright imad inc
+        </footer>
       </body>
     </html>
   );
