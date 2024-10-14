@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function Home() {
   return (
     <main>
-      <h1>Hello Next!</h1>
+      <h1>Hello Bob!</h1>
     </main>
   );
 }
